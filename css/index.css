@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    /* border: 1px dashed gray; */
 }
 
 html, body {
@@ -69,6 +70,34 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+header {
+display: flex;
+align-items: flex-end;
+margin: 1% 0;
+}
+
+header>a {
+    flex: 0 1 auto;
+}
+
+nav {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+nav a {
+    display: block;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.top-image {
+    margin: 2% 0;
 }
 
 .top-content {
