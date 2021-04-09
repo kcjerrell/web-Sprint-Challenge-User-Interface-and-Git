@@ -86,7 +86,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  /* border: 0; */
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -130,7 +130,7 @@ table {
 
 * {
   box-sizing: border-box;
-  border: 1px dashed gray;
+  /* border: 1px dashed gray; */
 }
 
 html,
@@ -209,6 +209,10 @@ nav a {
   border-bottom: 1px dashed black;
 }
 
+.middle-content.about {
+    border: 0;
+}
+
 .middle-content h2 {
   margin: 5% 0 3% 0;
 }
@@ -235,9 +239,10 @@ nav a {
 }
 
 .about-box {
-  width: 45%;
+  width: 48%;
   margin: 0%;
   font-size: medium;
+  border-bottom: 1px dashed black;
 }
 
 .about-box img {
@@ -247,9 +252,9 @@ nav a {
 .about-link {
     display: inline-block;
     border: 2px solid black;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 1% 0;
+    border-radius: 10px;
+    padding: 2% 6%;
+    margin: 4% 0;
 }
 
 .about-link a {
@@ -260,8 +265,12 @@ nav a {
 
 .bottom-content {
   display: flex;
-  margin: 0 2% 20px;
+  margin: 0 2% 25px;
   justify-content: space-around;
+}
+
+.bottom-content.about {
+    display: block;
 }
 
 .bottom-content .text-container {
