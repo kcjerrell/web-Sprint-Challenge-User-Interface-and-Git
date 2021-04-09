@@ -33,14 +33,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+      Semantic HTML is a way to give meaningful names to the sections and content of a webpage.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+      'block' items start a new line before and after, 'inline' items can exist side by side with each other and other content on the same line
+      'block' items try to fill the width of their parent element, 'inline' items only use as much width as they need.
 
 3. What are the 4 areas of the box model?
+       margin, border, padding, content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+       The secondary axis. In other words, if your content is arranged in a row ('flex-direction: row;'), 'align-items: flex-end;' would push each
+       item to the bottom of its parent element. In a column ('flex-direction: column;'), 'align-items: flex-start' would left-align your flex items
 
 5. Explain why git is valuable to a team of developers.
+       Git allows you to track changes made to source code, and enables collaboration between different developers.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
